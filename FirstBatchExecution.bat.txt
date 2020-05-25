@@ -1,0 +1,4 @@
+set ProjectPath=C:\Users\prasant.dwivedi\Desktop\Java Projects\FirstProjectWithTestNG\ActiTime
+cd %ProjectPath%
+set classpath=%ProjectPath%\bin;%ProjectPath%\jars\*
+java org.testng.TestNG %ProjectPath%\testng.xml

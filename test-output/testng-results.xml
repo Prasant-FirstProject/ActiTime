@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[valid username: admin]]>
+    </line>
+    <line>
+      <![CDATA[valid password: manager]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login button]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[valid username: admin]]>
+    </line>
+    <line>
+      <![CDATA[valid password: manager]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login button]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Enter Time-Track]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-05-24T23:09:48 IST" name="Suite" finished-at="2020-05-24T23:10:17 IST" duration-ms="28515">
+    <groups>
+    </groups>
+    <test started-at="2020-05-24T23:09:48 IST" name="ChromeTest" finished-at="2020-05-24T23:10:07 IST" duration-ms="19173">
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@18ce0030]" started-at="2020-05-24T23:09:48 IST" name="preCondition" finished-at="2020-05-24T23:10:01 IST" duration-ms="13026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@18ce0030]" started-at="2020-05-24T23:10:01 IST" name="testValidLoginLogout" finished-at="2020-05-24T23:10:07 IST" duration-ms="5527" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[valid username: admin]]>
+            </line>
+            <line>
+              <![CDATA[valid password: manager]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login button]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@18ce0030]" started-at="2020-05-24T23:10:07 IST" name="postCondition" finished-at="2020-05-24T23:10:07 IST" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginLogout status=SUCCESS method=ValidLoginLogoutTest.testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@18ce0030] output=Title is matching: actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2020-05-24T23:09:48 IST" name="FirefoxTest" finished-at="2020-05-24T23:10:17 IST" duration-ms="28515">
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@56528192]" started-at="2020-05-24T23:09:48 IST" name="preCondition" finished-at="2020-05-24T23:10:08 IST" duration-ms="19633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@56528192]" started-at="2020-05-24T23:10:08 IST" name="testValidLoginLogout" finished-at="2020-05-24T23:10:10 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[valid username: admin]]>
+            </line>
+            <line>
+              <![CDATA[valid password: manager]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login button]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@56528192]" started-at="2020-05-24T23:10:10 IST" name="postCondition" finished-at="2020-05-24T23:10:17 IST" duration-ms="6305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginLogout status=SUCCESS method=ValidLoginLogoutTest.testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@56528192] output=Title is matching: actiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
