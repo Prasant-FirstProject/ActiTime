@@ -22,11 +22,13 @@ public class BasePage
 		
 		try
 		{
+			//Simply
 			wait.until(ExpectedConditions.titleIs(eTitle));
 			Reporter.log("Title is matching: "+eTitle, true);
 		}
 		catch(Exception e)
 		{
+			//Simply
 			Reporter.log("Title is not matching: "+eTitle, true);
 			Reporter.log("Actual title is: "+ driver.getTitle(), true);
 			Assert.fail();
